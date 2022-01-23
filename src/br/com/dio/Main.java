@@ -2,17 +2,14 @@ package br.com.dio;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Exercício Calculadora \n");
+        Calculadora.multiplicacao(2,13);
+        System.out.println("\n");
+        Mensagem.obterMensagem(9);
+        Mensagem.obterMensagem(15);
+        Mensagem.obterMensagem(19);
+        Mensagem.obterMensagem(33);
+        Emprestimo.calcular(10000,12);
 
-        int i;
-        i = 5;
-
-        final int J = 10;
-        int quantidadeProduto = 50;
-        final int NUMERO_DE_TENTATIVAS = 5;
-
-        System.out.println(i);
-        System.out.println(J);
-        System.out.println(quantidadeProduto);
-        System.out.println(NUMERO_DE_TENTATIVAS);
     }
 }
