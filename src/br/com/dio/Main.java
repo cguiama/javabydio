@@ -9,7 +9,7 @@ public class Main {
         Mensagem.obterMensagem(15);
         Mensagem.obterMensagem(19);
         Mensagem.obterMensagem(33);
-        Emprestimo.calcular(10000,12);
+        Emprestimo.calcular(12000,16);
 
     }
 }
