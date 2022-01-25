@@ -24,5 +24,9 @@ public class Ex3_NumerosAleatorios {
         for (int numero : numerosAleatorios) {
             System.out.print((numero + 1) + " ");
         }
+        System.out.println("\nAntecessores de Numeros Aleatórios: ");
+        for (int numero : numerosAleatorios) {
+            System.out.print((numero - 1) + " ");
+        }
     }
 }
